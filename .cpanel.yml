@@ -2,5 +2,5 @@
 
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/johnetim/johninyang.com/
+    - export DEPLOYPATH=/home/johnetim/public_html/johninyang.com/
     - /bin/cp -r * $DEPLOYPATH
