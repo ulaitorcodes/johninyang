@@ -1,0 +1,6 @@
+---
+
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/johnetim/johninyang.com/
+    - /bin/cp -r * $DEPLOYPATH
