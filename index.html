@@ -237,7 +237,7 @@
                                 <a href="https://player.vimeo.com/video/4760972" class="video-btn video-popup mrr-50">
                                     <span class="icon-play31"></span>
                                 </a>
-                                <a class="btn btn-default btn-primary" href="#">Consult</a>
+                                <a data-target="#consult" data-toggle="modal" class="btn btn-default btn-primary" href="javascript:void(0)">Consult</a>
                             </div><!-- /.form-group-btn -->
                             <div class="social-status">
                                <a href="https://facebook.com/john inyang" target="_blank"><i class="fa fa-facebook"></i></a>
@@ -659,6 +659,39 @@
     </div>
   </div>
 </div>
+<!-- consult -->
+<div class="modal fade" id="consult" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Consult</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="recipient-name" class="col-form-label">Name:</label>
+              <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+              <label for="recipient-name" class="col-form-label">Email:</label>
+              <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+              <label for="message-text" class="col-form-label">Comment:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <!-- 
         ==============
@@ -729,7 +762,7 @@
                                 <a href=""><img src="assets/images/prof3.JPG" width="200px" alt="Logo"></a>
                             </div><!--~./ footer logo ~-->
                             <div class="copyright-text">
-                                <p>© 2020 The Capacity Hub. Powered By <a href="https://thecapacityhub.com">www.thecapacityhub.com</a></p>
+                                <p>© 2020 Prof John Inyang. Powered By <a href="https://thecapacityhub.com">Prof John Inyang</a></p>
                             </div><!--~./ end footer menu ~-->
                         </div>
                     </div>
